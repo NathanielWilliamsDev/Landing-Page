@@ -35,7 +35,7 @@
 .headerContentWrapper{
     display: flex;
     gap: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .headerMainContent{
@@ -57,10 +57,10 @@
 
 .headerMainContent button{
     background-color: #3882f6;
-    padding: 7px 32px;
+    padding: 9px 36px;
     color: #f9faf8;
     font-size: 18px;
-    border-radius: 6px;
+    border-radius: 8px;
     cursor: pointer;
     border: none;
     margin-top: 12px;
@@ -87,7 +87,7 @@
 
 .cardWrapper{
     display: flex;
-    gap: 60px;
+    gap: 55px;
 }
 
 .card{
@@ -96,7 +96,7 @@
     align-items: center;
     width: 150px;
     text-align: center;
-    padding-bottom: 100px;
+    margin-bottom: 133px;
 }
 
 .card img{
@@ -119,7 +119,7 @@
 .secondaryContent{
     display: flex;
     flex-direction: column;
-    padding: 100px 100px;
+    padding: 117px 100px;
     margin: 0 auto;
     width: 830px;
 }
@@ -141,7 +141,7 @@
 
 /* SIGN UP */
 .signup{
-    margin: 100px 80px 100px 80px;
+    margin: 95px 80px 95px 80px;
 }
 
 .popup{
@@ -149,9 +149,9 @@
     align-items: center;
     justify-content: space-evenly;
     background: #3882f6;
-    padding: 40px 0 40px 0;
+    padding: 55px 0 55px 0;
     border-radius: 7px;
-    margin: 0 100px 0 100px;
+    margin: 0 120px 0 120px;
 }
 
 .popupText{
@@ -177,4 +177,14 @@
     cursor: pointer;
     border: 2px solid #f9faf8;
     margin-top: 12px;
+}
+
+.footer{
+    display: flex;
+    background: #1f2937;
+    padding: 30px 0 30px 0;
+    justify-content: center;
+    color: #f9faf8;
+    gap: 8px;
+    font-size: 18px;
 }
