@@ -15,7 +15,7 @@
 .nav{
     display: flex;
     margin: 30px;
-    width: 1010px;
+    width: 1020px;
 }
 
 .nav h1{
@@ -24,16 +24,17 @@
     color: #f9faf8;
 }
 
-.nav h2{
+.nav a{
     padding-right: 20px;
     font-size: 18px;
     font-weight: 100;
     color: #d3d6dd;
+    text-decoration: none;
 }
 
 .headerContentWrapper{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     margin-bottom: 100px;
 }
 
@@ -78,7 +79,7 @@
 }
 
 .mainContent h1{
-    padding: 45px;
+    padding: 55px;
     font-size: 36px;
     font-weight: 600;
     color: #1f2937;
@@ -95,6 +96,7 @@
     align-items: center;
     width: 150px;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .card img{
@@ -104,6 +106,35 @@
 }
 
 .card p{
-    margin-top: 5px;
+    margin-top: 10px;
+    color: #1f2937;
+}
+
+
+.secondaryContentWrapper{
+    background-color: #e5e7eb;
+}
+
+.secondaryContent{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px;
+    margin: 0 auto;
+    width: 830px;
+}
+
+.secondaryContent h2{
+    font-size: 36px;
+    color: #47515e;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.secondaryContent p{
+    align-self: flex-end;
+    margin-right: 35px;
+    color: #161d27;
+    font-weight: 700;
+    font-size: 24px;
 }
 
