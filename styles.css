@@ -110,6 +110,7 @@
     color: #1f2937;
 }
 
+/* SECONDARY CONTENT */
 
 .secondaryContentWrapper{
     background-color: #e5e7eb;
@@ -138,3 +139,42 @@
     font-size: 24px;
 }
 
+/* SIGN UP */
+.signup{
+    margin: 100px 80px 100px 80px;
+}
+
+.popup{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #3882f6;
+    padding: 40px 0 40px 0;
+    border-radius: 7px;
+    margin: 0 100px 0 100px;
+}
+
+.popupText{
+    color: #f9faf8;
+}
+
+.popupText h2{
+    font-weight: 600;
+}
+
+.popupText h3{
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 3px;
+}
+
+.popupButton button{
+    background-color: #3882f6;
+    padding: 7px 32px;
+    color: #f9faf8;
+    font-size: 18px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: 2px solid #f9faf8;
+    margin-top: 12px;
+}
